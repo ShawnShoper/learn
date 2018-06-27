@@ -28,4 +28,14 @@ public class Person {
         this.gender = gender;
         this.emailAddress = emailAddress;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", birthday=" + birthday +
+                ", gender=" + gender +
+                ", emailAddress='" + emailAddress + '\'' +
+                '}';
+    }
 }
